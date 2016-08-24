@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272727">
+
+    <com.xing.app.newplayer.View.TopView
+        android:id="@+id/topview"
+        android:layout_alignParentTop="true"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.xing.app.newplayer.View.TopView>
+
+    <com.xing.app.newplayer.View.BottomView
+        android:layout_marginBottom="5dp"
+        android:id="@+id/bottonview"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.xing.app.newplayer.View.BottomView>
+
+    <com.xing.app.newplayer.View.MyListView
+    android:id="@+id/mylist"
+    android:layout_below="@id/topview"
+    android:layout_above="@id/bottonview"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingBottom="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    </com.xing.app.newplayer.View.MyListView>
+
+</RelativeLayout>
